@@ -90,7 +90,7 @@ class productdataViewModel: ObservableObject {
     
     var userCreateDetailUrl = "http://goodsbyus.com/api/user/create-detail"
     
-    var projJoinIdUrl = "http://goodsbyus.com/api/proj/join/"
+    var projJoinIdUrl = "https://goodsbyus.com/api/proj/join/"
     
     var projLeaveIdUrl = "http://goodsbyus.com/api/proj/leave/"
     
@@ -338,7 +338,7 @@ class productdataViewModel: ObservableObject {
             "Accept": "application/json",
             "Content-Type": "application/json" ]
         AF.request(userCreateDetailUrl, method: .get, parameters: nil, headers: tokenHeader)
-            .validate(statusCode: 200...400)
+            .validate(statusCode: 200...404)
             .responseString { response in
                 print("create",response)
             }
@@ -361,6 +361,9 @@ class productdataViewModel: ObservableObject {
             "Content-Type": "application/json" ]
         AF.request(url, method: .get, parameters: nil, headers: tokenHeader)
             .validate(statusCode: 200..<300)
+            .responseString{ response in
+                print("response projJoin: ", response)
+            }
             .responseDecodable(of: [projJoin_LeaveId].self) { response in
                 switch response.result {
                 case .success(let value):
