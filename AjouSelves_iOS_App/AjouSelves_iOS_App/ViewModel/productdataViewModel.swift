@@ -17,9 +17,6 @@ enum ActiveAlert {
 
 class productdataViewModel: ObservableObject {
     
-    //MARK: - Properties
-    var subscription = Set<AnyCancellable>() // 메모리 관리
-    
     @Published var projectAllDataParcings = [projectAllDataParcing]()
     
     @Published var postAllDatas = [postStruct.postAllData]()

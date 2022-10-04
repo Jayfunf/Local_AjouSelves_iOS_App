@@ -1,12 +1,49 @@
-# AjouSelves_iOS_App
+<center>
 
-## Tech Stack:
-### Applied
-- Swift
-- SwiftUI
-- Combine
-- MVVM
-- URLimage Library
-- Alamofire Library
-### Used before[removed already]
-- [Testing]RandomUserAPI
+# **_굿즈바이어스ㅣGoods By Us_**
+### **🙌[아주대학교 파란학기 | AjouSelve] 팀 소개**
+**👨‍💻 조민현 (아주대학교 소프트웨어학과 19, iOS 개발 및 팀장)**
+
+👨‍💻 백민석 (아주대학교 소프트웨어학과 18, 안드로이드 개발)
+
+👨‍💻 김지훈 (아주대학교 소프트웨어학과 18, 백엔드 개발)
+
+👨‍💻 장은학 (아주대학교 소프트웨어학과 18, 백엔드 개발)
+
+👨‍💻 강동하 (아주대학교 소프트웨어학과 18, 프론트엔드 개발)
+
+👩‍💻 김예슬 (아주대학교 E-비즈니스학과 20, UX/UI 디자이너 및 기획)
+
+### **❗서비스 소개**
+❗ 굿즈바이어스는, 아주대 학생들의 소속감, 유대감 증진을 위한
+
+**아주대학교 굿즈 제작 클라우드 펀딩 플랫폼** 입니다.
+
+❗ 보다 쉬운 접근성을 위해 안드로이드 및 iOS 환경에 맞는
+
+어플과 웹사이트를 개발하였습니다.
+
+***
+# **🚀iOS 개발**
+### **👨‍💻Tech Stack**
+### 🙆Applied
+🔨 Swift
+
+📱 SwiftUI
+
+🌐 Combine
+
+🏗 MVVM
+
+📚 URLimage Library
+
+📚 Alamofire Library
+
+### 🙅Used before[removed already]
+[Testing]RandomUserAPI
+
+### 
+
+
+
+</center> 
